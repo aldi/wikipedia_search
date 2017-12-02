@@ -1,0 +1,61 @@
+<html>
+<head>
+	<title>Wikipedia Search</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link type="text/css" rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+	<div class="hidden" id="searched_results_display">
+		<header>
+			<nav>
+				<a onclick="window.location.href=this" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Wikipedia_Logo_1.0.png/220px-Wikipedia_Logo_1.0.png" alt="" style="height: 50px;"></a>
+				<div class="after_search_container">
+					<input type="text" id="after_search"/ >
+					<span style="background-color:#209cee;"><i class="fa fa-search"></i></span>
+				</div>
+			</nav>
+		</header>
+		<section class="wiki_results">
+		</section>
+	</div> 
+
+	<div class="container main_search">
+	</br>
+	<p class="level-item has-text-centered">
+		<a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Wikipedia_Logo_1.0.png/220px-Wikipedia_Logo_1.0.png" alt="" style="height: 100px;"></a>
+	</p>
+	<h4 class="titlos title is-4 has-text-centered">Wikipedia Search</h4>
+
+	<div class="card">
+		<div class="field is-grouped has-addons-centered">
+			<p class="control is-expanded">
+				<input class="input" id="before_url" type="text" placeholder="Search anything" autofocus>
+			</p>
+			<p class="control search_buttons">
+				<a type="submit" class="button is-info" id="search" href="#"><i class="fa fa-search" style="padding-right: 8px;"></i> Search</a>
+				<a type="submit" class="button is-info" id="random" href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><i class="fa fa-random" style="padding-right: 8px;"></i> I'm feeling lucky</a>
+			</p>
+		</div>
+	</div>
+</div>
+<div class="container footer_container">
+	<div class="content has-text-centered">
+		<p>
+			Project by <a target="_blank" href="https://aldiduzha.com">Aldi Duzha</a>. The source code is licensed under
+			<a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+			is licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC ANS 4.0</a>.
+		</p>
+		<p>
+			Available in <a target="_blank" href="https://github.com/aldi"><i class="fa fa-github"></i></a> and <a target="_blank" href="https://codepen.io/aldiduzha/pen/xPymEVi"><i class="fa fa-codepen"></i></a>.
+		</p>
+	</div>
+</div>
+<script type="text/javascript" src="js/scripts.js"></script>
+</body>
+
+
+</html>

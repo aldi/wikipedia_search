@@ -1,0 +1,177 @@
+.card {
+	box-shadow: none;
+}
+
+html,body {
+	height: 100%;
+	width: 100%;
+	overflow:hidden;
+}
+
+header h1{
+	font-family: 'Expletus Sans', cursive;
+	letter-spacing: 10px;
+	margin: 5px;
+}
+
+.logo:hover{
+	text-decoration: none;
+}
+
+
+.logo:focus{
+	text-decoration: none;
+}
+
+input {
+	width: 500px;
+	height: 30px;
+}
+
+.hidden {
+	display: none;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	padding: 5px;
+	height: 90px;
+	width: 100%;
+	background-color: #eee;
+}
+
+nav h3{
+	margin: 5px;
+}
+
+
+input#after_search{
+	display: flex;
+	align-items: center;
+	margin: 15px;
+	padding-left: 7px;
+	height: 35px;
+	font-size:20px;  
+}
+
+section{
+	padding-left: 70px;
+	padding-top: 30px;
+}
+
+.wiki_title{
+	font-size: 1.5em;
+}
+
+.wiki_title a:visited{
+	color:purple;
+}
+
+.wiki_snippet{
+	width:500px;
+	padding-bottom: 15px;
+}
+
+.wiki_snippet_8{
+	padding-bottom:45px;
+}  
+
+.error{
+	font-size:1.3em;
+}
+
+.after_search_container{
+	display: flex; 
+	align-items: center;
+
+}
+
+.after_search_container span{
+	display: flex;
+	height: 35px;
+	font-size: 20px;
+	justify-content: center;
+	align-items: center;
+	width: 35px;
+	background-color:#3369E8;
+	margin-left: -15px;
+	color: white;
+}
+
+.after_search_container span:hover{
+	cursor:pointer;
+}
+
+/*Media Queries*/
+
+@media (min-width:860px) and (max-width:1024px) {
+	.container {
+		max-width: 860px;
+		width: 860px;
+	}
+}
+
+@media (min-width:521px) and (max-width:720px){
+	input#after_search {
+		width: 300px;
+	}
+
+	input#before_search{
+		width: 250px;
+	}
+
+	.snpt {
+		width: 350px;
+	}
+
+	section{
+		padding-left: 35px;
+	}
+}
+
+@media only screen and (max-width:520px)  {
+
+	input#before_search{
+		width: 250px;
+	}
+
+	input#after_search{
+		width: 250px;
+	}
+
+	.snpt {
+		width: 350px;
+	}
+
+	section{
+		padding-left: 20px;
+	}
+}
+
+@media only screen and (max-width:470px)  {
+
+	input#before_search{
+		width: 300px;
+	}
+
+	input#after_search{
+		width: 160px;
+	}
+
+	.snpt {
+		width: 330px;
+	}
+
+	section{
+		padding-left: 20px;
+	}
+}
+p {
+	text-align:center;
+}
+
+
+
+
+
