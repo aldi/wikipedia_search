@@ -1,7 +1,7 @@
 # Wikipedia Search
 #### Search engine for Wikipedia articles
 
-![](results.png)[![](live_preview.png)](https://aldiduzha.com/projects/wikipedia_search) [![](download.png)](https://github.com/aldi/wikipedia_search/archive/master.zip) [![](try_codepen.png)](https://codepen.io/aldiduzha/pen/xPymEV)
+[![](live_preview.png)](https://aldiduzha.com/projects/wikipedia_search) [![](download.png)](https://github.com/aldi/wikipedia_search/archive/master.zip) [![](try_codepen.png)](https://codepen.io/aldiduzha/pen/xPymEV)
 
 ## Features:
 
@@ -15,6 +15,8 @@
 ![](wikipedia_search.png)
 
 ## Results for "Boeing 787".
+
+![](results.png)
 
 ## License
 
